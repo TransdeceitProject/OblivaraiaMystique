@@ -10,6 +10,7 @@
 		[light_sources.settings.entities]
 
 			[light_sources.settings.entities.minecraft]
+				zombie_horse = true
 				panda = true
 				axolotl = true
 				bee = true
@@ -49,6 +50,7 @@
 				donkey = true
 				chest_minecart = true
 				tropical_fish = true
+				fox = true
 				slime = true
 				pillager = true
 				iron_golem = true
@@ -145,6 +147,7 @@
 				raccoon = true
 				fly = true
 				toucan = true
+				alligator_snapping_turtle = true
 				cachalot_whale = true
 				hummingbird = true
 				bison = true
@@ -175,6 +178,9 @@
 
 			[light_sources.settings.entities.enhancedai]
 				fishing_hook = true
+
+			[light_sources.settings.entities.majruszsdifficulty]
+				illusioner = true
 
 			[light_sources.settings.entities.born_in_chaos_v1]
 				pumpkin_spirit = true
@@ -216,6 +222,7 @@
 				supreme_bonescaller = true
 				baby_skeleton_minion = true
 				bone_imp_minion = true
+				zombie_clown_not_despawn = true
 				phantom_creeper_copy = true
 				corpse_fly = true
 				skeleton_thrasher_not_despawn = true

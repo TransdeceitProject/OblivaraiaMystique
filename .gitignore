@@ -21,3 +21,6 @@
 .minecraft/imgui.ini
 .minecraft/rhino.local.properties
 .minecraft/patchouli_data.json
+.minecraft/config/oculus.properties
+.minecraft/config/lambdynlights.toml
+.minecraft/config/fabric/indigo-renderer.properties
