@@ -1,0 +1,16 @@
+{
+    "variants": {
+        "age=0": {
+            "model": "kubejs:block/tinder"
+        },
+        "age=1": {
+            "model": "kubejs:block/tinder_1"
+        },
+        "age=2": {
+            "model": "kubejs:block/tinder_2"
+        },
+        "age=3": {
+            "model": "kubejs:block/tinder_3"
+        }
+    }
+}
