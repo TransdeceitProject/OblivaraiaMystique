@@ -10,3 +10,14 @@
 .minecraft/shaderpacks
 .minecraft/fabricloader.log
 .minecraft/.vscode
+.minecraft/usernamecache.json
+.minecraft/usercache.json
+.minecraft/modernfix
+*.disabled
+.minecraft/config/blockswap
+.minecraft/config/alexsmobs
+*.txt
+.minecraft/resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip
+.minecraft/imgui.ini
+.minecraft/rhino.local.properties
+.minecraft/patchouli_data.json
