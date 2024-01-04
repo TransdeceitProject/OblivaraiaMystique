@@ -1,0 +1,11 @@
+
+["Craft in world config"]
+	#To start the catalyst mode, all the recipes within the world are only tested upon the addition of the catalyst, to avoid situations of recipe confusion.
+	Catalyst = true
+	#The tick for storing burned items for recipe synthesis expires after which the items will be deleted. Adding new items will refresh the tick.
+	#Range: > 20
+	"Retention time" = 100
+	#When a task cannot be executed, it will be deleted after that time.
+	#Range: > 0
+	"Task dead line" = 6000
+

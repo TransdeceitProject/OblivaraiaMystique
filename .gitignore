@@ -1,0 +1,12 @@
+
+.minecraft/mods/.index
+.minecraft/mods/.connector
+.minecraft/logs
+.minecraft/crash-reports
+.minecraft/data
+.minecraft/local
+.minecraft/saves
+.minecraft/screenshots
+.minecraft/shaderpacks
+.minecraft/fabricloader.log
+.minecraft/.vscode
