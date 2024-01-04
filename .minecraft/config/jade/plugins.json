@@ -54,6 +54,9 @@
   "jadeaddons": {
     "equipment_requirement": ""
   },
+  "firecrafting": {
+    "fire": true
+  },
   "mekanism": {
     "infuse_type": true,
     "gas": true,

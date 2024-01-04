@@ -54,17 +54,6 @@ Difficulty = 4
 	#Enables the grace period
 	"Grace Period Enabled" = true
 
-[Hearth]
-	#How strong the hearth is
-	#Range: 0.0 ~ 1.0
-	"Hearth Strength" = 0.5
-	#List of additional blocks that the hearth can spread through
-	#Use this list if the hearth isn't spreading through particular blocks that it should
-	"Hearth Spread Whitelist" = ["minecraft:iron_bars", "minecraft:jungle_leaves", "minecraft:oak_leaves", "minecraft:spruce_leaves", "minecraft:dark_oak_leaves", "minecraft:acacia_leaves", "minecraft:birch_leaves", "minecraft:azalea_leaves", "minecraft:flowering_azalea_leaves", "minecraft:mangrove_leaves", "minecraft:cherry_leaves", "eldritch_end:primordial_leaves", "vinery:cherry_leaves", "vinery:apple_leaves", "vinery:grapevine_leaves", "undergarden:smogstem_leaves", "undergarden:wigglewood_leaves", "undergarden:grongle_leaves", "alexscaves:ancient_leaves", "forbidden_arcanus:aurum_leaves", "forbidden_arcanus:nuggety_aurum_leaves", "occultism:otherworld_leaves", "occultism:otherworld_leaves_natural", "betternether:anchor_tree_leaves", "betternether:nether_sakura_leaves", "betternether:rubeus_leaves", "betternether:willow_leaves", "betterend:amaranita_fur", "betterend:blue_vine_fur", "betterend:cave_bush", "betterend:dragon_tree_leaves", "betterend:glowing_pillar_leaves", "betterend:helix_tree_leaves", "betterend:lacugrove_leaves", "betterend:lucernia_leaves", "betterend:lucernia_outer_leaves", "betterend:mossy_glowshroom_fur", "betterend:pythadendron_leaves", "betterend:tenanea_leaves", "betterend:tenanea_outer_leaves", "betterend:umbrella_tree_membrane"]
-	#List of additional blocks that the hearth cannot spread through
-	#Use this list if the hearth is spreading through particular blocks that it shouldn't
-	"Hearth Spread Blacklist" = []
-
 ["Cold Soul Fire"]
 	#Converts damage dealt by Soul Fire to cold damage (default: true)
 	#Does not affect the block's temperature
