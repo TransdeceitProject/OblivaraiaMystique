@@ -21,6 +21,7 @@
 				skeleton = true
 				bat = true
 				husk = true
+				frog = true
 				rabbit = true
 				silverfish = true
 				firework_rocket = true
@@ -33,6 +34,7 @@
 				salmon = true
 				wandering_trader = true
 				wither_skeleton = true
+				goat = true
 				ocelot = true
 				item_frame = true
 				vindicator = true
@@ -44,6 +46,7 @@
 				squid = true
 				parrot = true
 				creeper = true
+				lightning_bolt = true
 				enderman = true
 				chicken = true
 				trader_llama = true
@@ -60,6 +63,7 @@
 				sheep = true
 				player = true
 				pufferfish = true
+				potion = true
 				trident = true
 				villager = true
 				wolf = true
@@ -76,9 +80,13 @@
 			[light_sources.settings.entities.alexscaves]
 				gammaroach = true
 				quarry_smasher = true
+				gloomoth = true
+				vesper = true
 				radgill = true
 				nucleeper = true
+				corrodent = true
 				raycat = true
+				underzealot = true
 				brainiac = true
 
 			[light_sources.settings.entities.spectre]
@@ -124,18 +132,22 @@
 				banana_slug = true
 				elephant = true
 				crocodile = true
+				anaconda = true
 				hammerhead_shark = true
 				seal = true
 				sunbird = true
+				emu = true
 				triops = true
 				mimic_octopus = true
 				gazelle = true
 				tarantula_hawk = true
 				soul_vulture = true
 				underminer = true
+				anaconda_part = true
 				terrapin = true
 				gorilla = true
 				flying_fish = true
+				platypus = true
 				capuchin_monkey = true
 				cockroach = true
 				murmur = true
@@ -181,6 +193,7 @@
 
 			[light_sources.settings.entities.majruszsdifficulty]
 				illusioner = true
+				tank = true
 
 			[light_sources.settings.entities.born_in_chaos_v1]
 				pumpkin_spirit = true
@@ -243,6 +256,10 @@
 				deepling_angler = true
 				the_watcher = true
 				the_prowler = true
+
+			[light_sources.settings.entities.create]
+				stationary_contraption = true
+				super_glue = true
 
 			[light_sources.settings.entities.meadow]
 				brown_bear = true

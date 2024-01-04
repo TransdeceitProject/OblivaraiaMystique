@@ -24,3 +24,5 @@
 .minecraft/config/oculus.properties
 .minecraft/config/lambdynlights.toml
 .minecraft/config/fabric/indigo-renderer.properties
+.minecraft/backups
+icon-exports-x32
