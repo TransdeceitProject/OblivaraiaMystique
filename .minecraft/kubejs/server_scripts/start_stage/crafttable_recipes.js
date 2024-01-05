@@ -15,5 +15,10 @@ ServerEvents.recipes(e => {
             "kubejs:tinder",
             "supplementaries:rope"
         ]
-    )    
+    )
+    e.recipes.minecraft.crafting_shaped("farmersdelight:flint_knife", ["F","S"], {
+        "F" : "notreepunching:flint_shard",
+        "S" : "minecraft:stick"
+    })
+    
 })
