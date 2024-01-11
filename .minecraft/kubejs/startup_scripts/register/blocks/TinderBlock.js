@@ -1,7 +1,7 @@
-StartupEvents.registry("block", e => {
+StartupEvents.registry(`block`, e => {
     const id = "tinder"
     e
-    .create(id, "super_block")
+    .create(id, `super_block`)
     .surviveType("redstone_wire")
     .hardness(0.1)
     .material("grass")
@@ -15,14 +15,6 @@ StartupEvents.registry("block", e => {
     .box(0, 0, 0, 16, 1, 16, true)
     .fullBlock(false)
     .requiresTool(false)
-    .item(item => {
-        item.modelJson({
-            "parent": "minecraft:item/generated",
-            "textures": {
-                "layer0": "kubejs:item/tinder"
-            }
-        })
-    })
     .property(BlockProperties.AGE_3)
     .canBeReplaced(callback => {
         callback.canBeReplaced(true)
@@ -53,6 +45,14 @@ StartupEvents.registry("block", e => {
                     break
             }
         }
+    })
+    .item(item => {
+        item.modelJson({
+            "parent": "minecraft:item/generated",
+            "textures": {
+                "layer0": "kubejs:item/tinder"
+            }
+        })
     })
 })
 

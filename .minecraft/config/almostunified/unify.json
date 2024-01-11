@@ -6,7 +6,11 @@
     "create",
     "thermal",
     "immersiveengineering",
-    "mekanism"
+    "mekanism",
+    "ytech",
+    "embers",
+    "geocluster",
+    "spelunkery"
   ],
   "stoneStrata": [
     "stone",

@@ -1,5 +1,7 @@
 Ponder.registry(event => {
-    event.create("minecraft:campfire").scene("campfire_frist", "How to use campfire", (scene, utils) => {
+    event
+        .create("minecraft:campfire")
+        .scene("campfire_frist", "How to use campfire", (scene, utils) => {
 
         const blockPos = utils.grid.at(2, 1, 2)
         const textPos = utils.grid.at(2.5, 1.5, 2.5)

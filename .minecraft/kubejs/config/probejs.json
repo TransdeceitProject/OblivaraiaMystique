@@ -6,7 +6,9 @@
   "allowRegistryLiteralDumps": true,
   "requireSingleAndPerm": true,
   "enabled": true,
+  "modChanged": false,
   "disableRecipeJsonDump": false,
   "dumpJSONIntermediates": true,
+  "pullSchema": true,
   "version": 1
 }

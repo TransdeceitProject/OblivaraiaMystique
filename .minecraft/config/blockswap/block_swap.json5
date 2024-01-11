@@ -1,0 +1,105 @@
+
+{
+	"generate_all_known_states": true,
+	"retro_gen": false,
+	/* A map of states that specifies what the "old" block state is and what its "new" block state is.
+	   See "known_states" folder("generate_all_known_states" must be set to true in this config) to see all known block states available for all blocks available in the registry.
+	   Example:
+	    "state_swapper": [
+	    	{
+	    		"new": {
+	    			"Name": "minecraft:birch_log",
+	    			// Properties define the state of this block/fluid.
+	    			"Properties": {
+	    				"axis": "x"
+	    			}
+	    		},
+	    		"old": {
+	    			"Name": "minecraft:oak_log",
+	    			// Properties define the state of this block/fluid.
+	    			"Properties": {
+	    				"axis": "z"
+	    			}
+	    		}
+	    	},
+	    	{
+	    		"new": {
+	    			"Name": "minecraft:birch_leaves",
+	    			// Properties define the state of this block/fluid.
+	    			"Properties": {
+	    				"distance": "7",
+	    				"persistent": "true"
+	    			}
+	    		},
+	    		"old": {
+	    			"Name": "minecraft:acacia_log",
+	    			// Properties define the state of this block/fluid.
+	    			"Properties": {
+	    				"axis": "z"
+	    			}
+	    		}
+	    	},
+	    	{
+	    		"new": {
+	    			"Name": "minecraft:jungle_log",
+	    			// Properties define the state of this block/fluid.
+	    			"Properties": {
+	    				"axis": "x"
+	    			}
+	    		},
+	    		"old": {
+	    			"Name": "minecraft:birch_log",
+	    			// Properties define the state of this block/fluid.
+	    			"Properties": {
+	    				"axis": "z"
+	    			}
+	    		}
+	    	},
+	    	{
+	    		"new": {
+	    			"Name": "minecraft:jungle_planks",
+	    		},
+	    		"old": {
+	    			"Name": "minecraft:acacia_planks",
+	    			}
+	    		}
+	    	}
+	    ]
+	*/
+	"state_swapper": [],
+	/* A map of blocks that specifies what the "old" block is and what its "new" block is.
+	   Example:
+	   	"swapper": {
+	   		"minecraft:coarse_dirt": "minecraft:dirt",
+	   		"minecraft:diamond_block": "minecraft:emerald_block"
+	   	}
+	*/
+	"swapper": {
+		'ytech:galena_ore':'mekanism:lead_ore',
+		'embers:lead_ore':'mekanism:lead_ore',
+		'geocluster:lead_ore':'mekanism:lead_ore',
+
+		'embers:deepslate_lead_ore':'mekanism:deepslate_lead_ore',
+		'ytech:deepslate_galena_ore':'mekanism:deepslate_lead_ore',
+		'geocluster:deepslate_lead_ore':'mekanism:deepslate_lead_ore',
+
+		'ytech:cassiterite_ore':'mekanism:tin_ore',
+		'ytech:deepslate_cassiterite_ore':'mekanism:deepslate_tin_ore',
+
+		'embers:silver_ore':'occultism:silver_ore',
+		'embers:deepslate_silver_ore':'occultism:silver_ore_deepslate',
+
+		'ytech:cassiterite_sand_deposit':'minecraft:sand',
+		'ytech:golden_sand_deposit':'minecraft:sand',
+
+		'ytech:golden_gravel_deposit':'minecraft:gravel',
+		'ytech:cassiterite_gravel_deposit':'minecraft:gravel',
+
+		'ytech:nether_cassiterite_ore':'minecraft:netherrack',
+		'ytech:nether_iron_ore':'minecraft:netherrack',
+		'ytech:nether_copper_ore':'minecraft:netherrack',
+		'ytech:nether_galena_ore':'minecraft:netherrack',
+
+		'create_new_age:magnetite_block':'minecraft:stone'
+	}
+}
