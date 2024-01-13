@@ -1,5 +1,4 @@
 ServerEvents.tags("item", event => {
-
     const plates = event.get('ytech:plates').getObjectIds()
 
     plates.forEach(plate => {
