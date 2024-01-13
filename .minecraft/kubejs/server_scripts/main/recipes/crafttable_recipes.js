@@ -1,12 +1,17 @@
-ServerEvents.recipes(e => {
-    e.recipes.kubejs.shapeless(
+/**
+ * @description 合成台配方的添加
+ * @param {Internal.RecipesEventJS} event 配方事件
+ */
+function craftingTableRecipe (event) {
+    const {kubejs} = event.recipes
+    kubejs.shapeless(
         Item.of("kubejs:tinder", 1), [
             "kubejs:dry_fiber", 
             "kubejs:dry_fiber", 
             "kubejs:dry_fiber"
         ]
     )
-    e.recipes.kubejs.shapeless(
+    kubejs.shapeless(
         Item.of("minecraft:campfire", 1), [
             "#minecraft:logs",
             "#minecraft:logs",
@@ -16,9 +21,8 @@ ServerEvents.recipes(e => {
             "supplementaries:rope"
         ]
     )
-    e.recipes.kubejs.shaped("farmersdelight:flint_knife", ["F","S"], {
+    kubejs.shaped("farmersdelight:flint_knife", ["F","S"], {
         "F" : "notreepunching:flint_shard",
         "S" : "minecraft:stick"
     })
-    
-})
+}

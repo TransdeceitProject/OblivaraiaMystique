@@ -3,6 +3,9 @@ ServerEvents.tags("item", event => {
     const plates = event.get('ytech:plates').getObjectIds()
 
     plates.forEach(plate => {
+        /**
+         * @type {Internal.List<ResourceLocation>}
+         */
         const tagList = Item.of(plate).getTags().toList()
         const lists = setTagNamespace(tagList, "ytech", "forge")
     
@@ -19,7 +22,7 @@ ServerEvents.tags("item", event => {
      * @param {Internal.List<ResourceLocation>} tags 
      * @param {String} oldN 
      * @param {String} newN 
-     * @returns {Map}
+     * @returns {Map<RegExpExecArray, String}
      */
     function setTagNamespace(tags, oldN, newN){
         let returnTag = new Map()
