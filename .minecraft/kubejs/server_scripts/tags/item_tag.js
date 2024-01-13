@@ -13,7 +13,7 @@ ServerEvents.tags("item", event => {
             }
         })
     })
-
+    
     /**
      * 
      * @param {Internal.List<ResourceLocation>} tags 
