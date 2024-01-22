@@ -20,6 +20,7 @@
 				pig = true
 				allay = true
 				skeleton = true
+				llama = true
 				bat = true
 				husk = true
 				frog = true
@@ -87,43 +88,6 @@
 				cod = true
 				spider = true
 
-			[light_sources.settings.entities.untamedwilds]
-				rhino = true
-				arowana = true
-				whale_shark = true
-				snake = true
-				baleen_whale = true
-				catfish = true
-				spitter = true
-				boar = true
-				tortoise = true
-				hyena = true
-				camel = true
-				bear = true
-				terror_bird = true
-				spadefish = true
-				giant_salamander = true
-				shark = true
-				triggerfish = true
-				opossum = true
-				manatee = true
-				hippo = true
-				large_snake = true
-				newt = true
-				softshell_turtle = true
-				monitor = true
-				tarantula = true
-				football_fish = true
-				sawfish = true
-				big_cat = true
-				trevally = true
-				sunfish = true
-				giant_clam = true
-				king_crab = true
-				wildebeest = true
-				spit = true
-				bison = true
-
 			[light_sources.settings.entities.alexscaves]
 				gammaroach = true
 				teletor = true
@@ -143,9 +107,6 @@
 				ferrouslime = true
 				raycat = true
 
-			[light_sources.settings.entities.weather2]
-				lightning_bolt = true
-
 			[light_sources.settings.entities.spectre]
 				spectre_phantom = true
 				murk_lurker = true
@@ -156,10 +117,6 @@
 				creep_runner = true
 				parasitic_maggot = true
 				viggoand_felix = true
-
-			[light_sources.settings.entities.vinery]
-				mule = true
-				wandering_winemaker = true
 
 			[light_sources.settings.entities.alexsmobs]
 				murmur_head = true
@@ -183,6 +140,7 @@
 				rattlesnake = true
 				leafcutter_ant = true
 				shoebill = true
+				blobfish = true
 				lobster = true
 				mimicube = true
 				grizzly_bear = true
@@ -239,17 +197,8 @@
 				frilled_shark = true
 				sugar_glider = true
 
-			[light_sources.settings.entities.embers]
-				ancient_golem = true
-
-			[light_sources.settings.entities.railways]
-				conductor = true
-
 			[light_sources.settings.entities.forbidden_arcanus]
 				lost_soul = true
-
-			[light_sources.settings.entities.cold_sweat]
-				chameleon = true
 
 			[light_sources.settings.entities.ytech]
 				deer = true
@@ -264,9 +213,6 @@
 				ghoul = true
 				reaper = true
 				nightmare = true
-
-			[light_sources.settings.entities.enhancedai]
-				fishing_hook = true
 
 			[light_sources.settings.entities.majruszsdifficulty]
 				illusioner = true
@@ -292,6 +238,10 @@
 				butterfly = true
 				sparrow = true
 				elephant = true
+
+			[light_sources.settings.entities.botania]
+				mana_burst = true
+				babylon_weapon = true
 
 			[light_sources.settings.entities.born_in_chaos_v1]
 				pumpkin_spirit = true
@@ -347,6 +297,7 @@
 				orc = true
 				amethyst_golem = true
 				enderwarthog = true
+				void_shadow = true
 				ender_whale = true
 				summoner = true
 
@@ -354,6 +305,7 @@
 				lionfish = true
 				koboleton = true
 				deepling = true
+				wall_watcher = true
 				flame_strike = true
 				ender_golem = true
 				endermaptera = true
@@ -372,6 +324,80 @@
 				contraption = true
 				super_glue = true
 
+			[light_sources.settings.entities.meadow]
+				brown_bear = true
+				wooly_cow = true
+				water_buffalo = true
+
+			[light_sources.settings.entities.eldritch_end]
+				dendler = true
+
+			[light_sources.settings.entities.untamedwilds]
+				rhino = true
+				arowana = true
+				whale_shark = true
+				snake = true
+				baleen_whale = true
+				catfish = true
+				spitter = true
+				boar = true
+				tortoise = true
+				hyena = true
+				camel = true
+				bear = true
+				terror_bird = true
+				spadefish = true
+				giant_salamander = true
+				shark = true
+				triggerfish = true
+				opossum = true
+				manatee = true
+				hippo = true
+				large_snake = true
+				newt = true
+				softshell_turtle = true
+				monitor = true
+				tarantula = true
+				football_fish = true
+				sawfish = true
+				big_cat = true
+				trevally = true
+				sunfish = true
+				giant_clam = true
+				king_crab = true
+				wildebeest = true
+				spit = true
+				bison = true
+
+			[light_sources.settings.entities.weather2]
+				lightning_bolt = true
+
+			[light_sources.settings.entities.vinery]
+				mule = true
+				wandering_winemaker = true
+
+			[light_sources.settings.entities.embers]
+				ancient_golem = true
+
+			[light_sources.settings.entities.railways]
+				conductor = true
+
+			[light_sources.settings.entities.bosses_of_mass_destruction]
+				spore_ball = true
+				lich = true
+				obsidilith = true
+				petal_blade = true
+				charged_ender_pearl = true
+				gauntlet = true
+				soul_star = true
+				void_blossom = true
+
+			[light_sources.settings.entities.cold_sweat]
+				chameleon = true
+
+			[light_sources.settings.entities.enhancedai]
+				fishing_hook = true
+
 			[light_sources.settings.entities.aquamirae]
 				maw = true
 				tortured_soul = true
@@ -380,11 +406,6 @@
 				pillagers_patrol = true
 				spinefish = true
 
-			[light_sources.settings.entities.meadow]
-				brown_bear = true
-				wooly_cow = true
-				water_buffalo = true
-
-			[light_sources.settings.entities.eldritch_end]
-				dendler = true
+			[light_sources.settings.entities.sanitydim]
+				rotting_stalker = true
 
