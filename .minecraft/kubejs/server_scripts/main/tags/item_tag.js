@@ -2,6 +2,7 @@ ServerEvents.tags("item", (event) => {
     const plates = event.get('ytech:plates').getObjectIds()
 
     event.add("minecraft:enchanted", 'minecraft:enchanted_book')
+    event.add("forge:axes", "notreepunching:flint_axe")
 
     plates.forEach(plate => {
         /**

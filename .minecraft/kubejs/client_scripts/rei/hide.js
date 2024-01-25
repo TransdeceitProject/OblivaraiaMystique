@@ -3,6 +3,6 @@ Ingredient.of([
     /.*spawn_egg/, 
     /.*spawn_.*/,
     "#minecraft:enchanted",
-]).getItemIds().forEach(id => {
+]).itemIds.forEach(id => {
     REIRuntime.hideItem(Item.of(id))
 })

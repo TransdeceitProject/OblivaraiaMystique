@@ -27,3 +27,4 @@ icon-exports-x32
 .minecraft/debug
 .minecraft/kubejs/server_scripts/test
 .minecraft/kubejs/client_scripts/test
+.minecraft/.mixin.out

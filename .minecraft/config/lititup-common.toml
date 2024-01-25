@@ -6,6 +6,8 @@
 	Sparkling_flint_consumption_item = "lititup:switchgrass_fiber"
 	#Enable or disable the requirement to ignite a furnace block with flint and steel item before allowing it to cook items.
 	Flint_and_steel_furnace_executor = true
+	#Enable or disable compatibility with the Brick Furnace mod. Link: https://www.curseforge.com/minecraft/mc-mods/brick-furnace
+	Brick_furnace_mod_compatibility = true
 
 ["Custom Message"]
 	#Personalized message for missing items when using Sparkling Flint item.

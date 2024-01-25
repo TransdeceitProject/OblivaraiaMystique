@@ -5,8 +5,13 @@
 function recipeRemove (event) {
     event.remove({output : [
         'minecraft:campfire',
-        "meadow:frame",
         "#notreepunching:knives",
-        "farmersdelight:flint_knife"
+        "farmersdelight:flint_knife",
+        "minecraft:crafting_table",
+        "ytech:tin_axe",
+        "ytech:lead_axe",
+        "ytech:flint_axe",
+        "ytech:bronze_axe",
+        "ytech:copper_axe"
     ]})
 }

@@ -21,9 +21,7 @@ StartupEvents.registry(`block`, e => {
     })
     .rightClick(callback => {
         const name = callback.player.name.string
-        const x = callback.block.pos.x
-        const y = callback.block.pos.y
-        const z = callback.block.pos.z
+        const {x, y, z} = callback.block.pos
         const value = callback.block.properties.values()
 
         function setLog(){

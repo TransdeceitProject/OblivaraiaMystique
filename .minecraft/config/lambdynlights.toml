@@ -89,8 +89,8 @@
 				spider = true
 
 			[light_sources.settings.entities.alexscaves]
-				gammaroach = true
 				teletor = true
+				gammaroach = true
 				quarry_smasher = true
 				boundroid_winch = true
 				gloomoth = true
@@ -122,8 +122,8 @@
 				murmur_head = true
 				kangaroo = true
 				gelada_monkey = true
-				blue_jay = true
 				skelewag = true
+				blue_jay = true
 				bone_serpent_part = true
 				cachalot_echo = true
 				catfish = true
@@ -198,31 +198,19 @@
 				sugar_glider = true
 
 			[light_sources.settings.entities.forbidden_arcanus]
+				crimson_lightning_bolt = true
 				lost_soul = true
 
 			[light_sources.settings.entities.ytech]
 				deer = true
 
-			[light_sources.settings.entities.graveyard]
-				acolyte = true
-				nameless_hanged = true
-				revenant = true
-				corrupted_vindicator = true
-				skeleton_creeper = true
-				corrupted_pillager = true
-				ghoul = true
-				reaper = true
-				nightmare = true
-
-			[light_sources.settings.entities.majruszsdifficulty]
-				illusioner = true
-				cursed_armor = true
-				tank = true
-				creeperling = true
+			[light_sources.settings.entities.botania]
+				mana_burst = true
+				babylon_weapon = true
 
 			[light_sources.settings.entities.naturalist]
-				deer = true
 				rattlesnake = true
+				deer = true
 				snail = true
 				rhino = true
 				firefly = true
@@ -239,9 +227,22 @@
 				sparrow = true
 				elephant = true
 
-			[light_sources.settings.entities.botania]
-				mana_burst = true
-				babylon_weapon = true
+			[light_sources.settings.entities.majruszsdifficulty]
+				illusioner = true
+				cursed_armor = true
+				tank = true
+				creeperling = true
+
+			[light_sources.settings.entities.graveyard]
+				acolyte = true
+				nameless_hanged = true
+				revenant = true
+				corrupted_vindicator = true
+				skeleton_creeper = true
+				corrupted_pillager = true
+				ghoul = true
+				reaper = true
+				nightmare = true
 
 			[light_sources.settings.entities.born_in_chaos_v1]
 				pumpkin_spirit = true
