@@ -9,7 +9,7 @@
 		#When joining a new world, should players be given a blueprint package?
 		#The blueprint package gives some blueprints when used (right-click).
 		#To change what is given, override the starter_blueprints loot table.
-		spawnWithStarterBlueprints = true
+		spawnWithStarterBlueprints = false
 
 	#Repair kit configs.
 	[item.repairKits]
@@ -56,7 +56,7 @@
 #Changes require a restart!
 [nerfedItems]
 	#Enable this feature. If false, the other settings in this category are ignored.
-	enabled = false
+	enabled = true
 	#Multiplies max durability by this value. If the result would be zero, a value of 1 is assigned.
 	#Range: 0.0 ~ 1.0
 	durabilityMultiplier = 0.05

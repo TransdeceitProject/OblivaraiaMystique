@@ -1,23 +1,39 @@
 ServerEvents.tags("item", (event) => {
-    const plates = event.get('ytech:plates').getObjectIds()
-
     event.add("minecraft:enchanted", 'minecraft:enchanted_book')
     event.add("forge:axes", "notreepunching:flint_axe")
 
-    plates.forEach(plate => {
-        /**
-         * @type {Internal.List<ResourceLocation>}
-         */
-        const tagList = Item.of(plate).getTags().toList()
-        const lists = setTagNamespace(tagList, "ytech", "forge")
-    
-        lists.forEach((value, key) => {
-            if(key.toString() != null){
-                event.add(value, plate)
-                console.log(`Change the ${plate} tag from ${key} to ${value}.`)
-            }
-        })
+    const ytech = ["plates", "hammers", "rods", ]
+    ytech.forEach(tag => {
+        tagChange(event.get(`ytech:${tag}`), "ytech", "forge")
     })
+
+    const sg = ["hoes", "axes", "pickaxes", ]
+    sg.forEach(tag => {
+        tagChange(event.get(`forge:${tag}`), "forge", "minecraft")
+    })
+
+    /**
+     * 
+     * @param {Internal.TagWrapper} items 
+     * @param {String} oldN 
+     * @param {String} newN 
+     */
+    function tagChange(items, oldN, newN){
+        items.objectIds.forEach(plate => {
+            /**
+            * @type {Internal.List<ResourceLocation>}
+            */
+            const tagList = Item.of(plate).tags.toList()
+            const lists = setTagNamespace(tagList, oldN, newN)
+    
+            lists.forEach((value, key) => {
+                if(key.toString() != null){
+                    event.add(value, plate)
+                    console.log(`Change the ${plate} tag from ${key} to ${value}.`)
+                }
+            })
+        })
+    }
     
     /**
      * 

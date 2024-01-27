@@ -2,5 +2,9 @@
     "item.kubejs.dry_fiber" : "干燥的植物纤维",
     "block.kubejs.tinder" : "火绒",
     "tooltip.kubejs.tinder" : "上好的引火物",
-    "tooltip.kubejs.dry_fiber" : "已经失去韧性的纤维不适合用来揉搓成线\n酥酥脆脆...或许它有别的用处?"
+    "tooltip.kubejs.dry_fiber" : "已经失去韧性的纤维不适合用来揉搓成线\n酥酥脆脆...或许它有别的用处?",
+    "adv.om.start/title" : "新的开始",
+    "adv.om.start/description" : "但是时候踏出旅途的第一步了",
+    "adv.om.flower/title" : "花",
+    "adv.om.flower/description" : "通七窍 护五藏\n安神养心"
 }

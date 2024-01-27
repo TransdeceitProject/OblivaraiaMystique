@@ -65,6 +65,7 @@
 				pillager = true
 				iron_golem = true
 				zombified_piglin = true
+				area_effect_cloud = true
 				piglin = true
 				blaze = true
 				cat = true
@@ -89,8 +90,8 @@
 				spider = true
 
 			[light_sources.settings.entities.alexscaves]
-				teletor = true
 				gammaroach = true
+				teletor = true
 				quarry_smasher = true
 				boundroid_winch = true
 				gloomoth = true
@@ -122,8 +123,8 @@
 				murmur_head = true
 				kangaroo = true
 				gelada_monkey = true
-				skelewag = true
 				blue_jay = true
+				skelewag = true
 				bone_serpent_part = true
 				cachalot_echo = true
 				catfish = true
@@ -204,13 +205,26 @@
 			[light_sources.settings.entities.ytech]
 				deer = true
 
-			[light_sources.settings.entities.botania]
-				mana_burst = true
-				babylon_weapon = true
+			[light_sources.settings.entities.graveyard]
+				acolyte = true
+				nameless_hanged = true
+				revenant = true
+				corrupted_vindicator = true
+				skeleton_creeper = true
+				corrupted_pillager = true
+				ghoul = true
+				reaper = true
+				nightmare = true
+
+			[light_sources.settings.entities.majruszsdifficulty]
+				illusioner = true
+				cursed_armor = true
+				tank = true
+				creeperling = true
 
 			[light_sources.settings.entities.naturalist]
-				rattlesnake = true
 				deer = true
+				rattlesnake = true
 				snail = true
 				rhino = true
 				firefly = true
@@ -227,22 +241,9 @@
 				sparrow = true
 				elephant = true
 
-			[light_sources.settings.entities.majruszsdifficulty]
-				illusioner = true
-				cursed_armor = true
-				tank = true
-				creeperling = true
-
-			[light_sources.settings.entities.graveyard]
-				acolyte = true
-				nameless_hanged = true
-				revenant = true
-				corrupted_vindicator = true
-				skeleton_creeper = true
-				corrupted_pillager = true
-				ghoul = true
-				reaper = true
-				nightmare = true
+			[light_sources.settings.entities.botania]
+				mana_burst = true
+				babylon_weapon = true
 
 			[light_sources.settings.entities.born_in_chaos_v1]
 				pumpkin_spirit = true
@@ -378,6 +379,7 @@
 				wandering_winemaker = true
 
 			[light_sources.settings.entities.embers]
+				ember_projectile = true
 				ancient_golem = true
 
 			[light_sources.settings.entities.railways]

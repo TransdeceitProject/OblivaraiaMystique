@@ -6,25 +6,31 @@ function modifyBlock (event) {
     event.modifyBlock("#minecraft:leaves", loot => {
         loot.addPool(pool => {
             pool.addItem("notreepunching:plant_fiber")
-            pool.randomChance(0.05)
+            pool.randomChance(0.06)
             pool.addFunction({
                 "function": "minecraft:set_count",
                 "count": {
-                  "min": 1,
-                  "max": 2
+                    "min": 1,
+                    "max": 2
+                    }
                 }
-              }
             )
             pool.addCondition({
-              "condition": "minecraft:match_tool",
-              "predicate": {
-                "tag": "farmersdelight:tools/knives"
-              }
-            })
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                    "tag": "farmersdelight:tools/knives"
+                  }
+              })
         })
         loot.addPool(pool => {
-          pool.addItem("kubejs:dry_fiber")
-          pool.randomChance(0.01)
+            pool.addItem("kubejs:dry_fiber")
+            pool.randomChance(0.05)
+        })
+    })
+    event.modifyBlock("#minecraft:dirt", loot => {
+        loot.addPool(pool => {
+            pool.addItem("minecraft:flint")
+            pool.randomChance(0.25)
         })
     })
 }

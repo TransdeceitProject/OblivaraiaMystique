@@ -12,6 +12,8 @@ function recipeRemove (event) {
         "ytech:lead_axe",
         "ytech:flint_axe",
         "ytech:bronze_axe",
-        "ytech:copper_axe"
+        "ytech:copper_axe",
+        "#silentgear:blueprints"
     ]})
+    event.remove({mod : "ytech"})
 }
